@@ -1,61 +1,49 @@
-# 📝 To-Do List App (EJS + Express + MongoDB)
+# 🔐 Secrets – Secure User Authentication App
 
-A simple, clean, and functional To-Do List web application built using **Node.js**, **Express**, **EJS**, and **MongoDB Atlas**. Users can add, edit, delete, and filter tasks based on priority.
-
----
-
-## 🌐 Live Demo
-
-👉 [View App on Render](https://your-app-name.onrender.com)  
-> Replace with your actual Render link after deployment.
+Secrets is a secure web application where users can register, log in, and share their secrets. Each user can only view their own secrets. The app demonstrates modern authentication practices using JWT and password hashing, with persistent cloud data storage using MongoDB Atlas.
 
 ---
 
-## 📸 Features
+## 🚀 Live Demo
 
-- ✅ Add tasks with custom priority (Low, Medium, High)
-- ✅ Edit tasks and priorities
-- ✅ Delete tasks via checkbox
-- ✅ Filter tasks by priority
-- ✅ Visual feedback for completed tasks
-- ✅ Fully dynamic with EJS templating
-- ✅ MongoDB Atlas for persistent data storage
-- ✅ Deployed on Render
+🌐 **Deployed on Render**: [Add your deployed URL here]  
 
 ---
 
-## 🚀 Tech Stack
+## 📌 Features
 
-- [Node.js](https://nodejs.org/)
-- [Express](https://expressjs.com/)
-- [EJS](https://ejs.co/)
-- [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-- [Render](https://render.com)
-
----
-
-## 📁 Project Structure
-
-ToDoList/
-├── public/
-│ └── css/
-│ └── styles.css
-├── views/
-│ └── list.ejs
-├── .env
-├── .gitignore
-├── index.js
-├── package.json
-└── README.md
-
+- ✅ **User Registration** with name, email, and strong password
+- 🔍 **Email Format Validation** (e.g., `example@mail.com`)
+- 🔐 **Password Validation**
+  - 6–8 characters
+  - At least 1 uppercase letter
+  - At least 1 lowercase letter
+  - At least 1 number
+- 🔑 **Password Hashing** using bcrypt
+- 🔐 **JWT-based Authentication**
+- 🛡 **HttpOnly Cookies** for session security
+- 🔒 **Protected Routes** for secrets and user details
+- 🙈 **Users only see their own secrets**
+- 🎨 **Clean and Responsive UI** (EJS + CSS)
+- ☁️ **MongoDB Atlas** for cloud data storage
+- 🚀 **Deployed on Render**
 
 ---
 
-## ⚙️ Setup Instructions
+## 🏗️ Tech Stack
 
-### 🖥️ Local Setup
+- **Backend**: Node.js, Express.js
+- **Frontend**: EJS Templates, CSS
+- **Authentication**: JWT + bcrypt
+- **Database**: MongoDB Atlas (via Mongoose)
+- **Session Management**: HttpOnly Cookies
+- **Deployment**: Render
 
-```bash
-git clone https://github.com/Archie0410/ToDoList.git
-cd ToDoList
-npm install
+---
+
+## 📦 Installation
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/your-username/secrets-app.git
+   cd secrets-app
