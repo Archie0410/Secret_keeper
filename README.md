@@ -6,7 +6,7 @@ Secret Keeper is a secure web application where users can register, log in, and 
 
 ## 🚀 Live Demo
 
-🌐 **Deployed on Render**: [Add your deployed URL here]
+🌐 **Deployed on Render**: [https://secret-keeper-8oe6.onrender.com/]
 
 ---
 
